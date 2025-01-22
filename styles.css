@@ -1,0 +1,134 @@
+/* global defaults */
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+/* Default text size for body text/links */
+p, a {
+    font-size: 12px;
+}
+
+/* Component-specific rules */
+
+.header, .intro-box {
+    color: white;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}   
+
+.header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header-left {
+    flex: 0 0 auto;
+
+    padding-left: 7rem;
+}
+
+.header-right {
+    flex: 0 0 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding-right: 7rem;
+}
+
+/* --- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-box {
+    flex: 1;
+
+    padding: 5rem 10rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-box h1, p, button {
+    margin: 5px;
+}
+
+#intro-left {
+    flex: 1;
+}
+
+#intro-right {
+    flex: 1;
+
+    background-color: grey;
+
+    align-content: center;
+}
+
+#intro-button {
+    background: #3882F6;
+}
+
+/* --- */
+
+.image-box {
+    flex: 1;
+}
+
+.card-stack {
+
+}
+
+.card {
+
+}
+
+/* --- */
+
+.quote-box {
+    flex: 1;
+}
+
+#quote-para {
+
+}
+
+/* --- */
+
+.cta-box {
+    flex: 1;
+}
+
+#cta-button {
+
+}
+
+/* --- */
+
+.footer {
+
+}
