@@ -12,7 +12,10 @@ body {
 }
 
 button {
-    padding: 2px 15px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border: none;
     border-radius: 5px;
 }
 
@@ -38,7 +41,7 @@ p, a {
 
 .header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: whitesmoke; /* wrong colour */
 }
 
 .header-left {
@@ -90,31 +93,58 @@ p, a {
 }
 
 #intro-button {
-    background: #3882F6;
+
 }
 
 /* --- */
 
 .image-box {
+    padding: 100px 30px 150px 30px;
     flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    align-items: center;
 }
 
 .card-stack {
 
+    display: flex;
+    gap: 20px;
+
 }
 
 .card {
+    flex: 1;
+    width: 125px;
 
+    padding: 10px;
+    text-align: center;
+
+}
+
+.card-img {
+    width: 125px;
+    height: 125px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 /* --- */
 
 .quote-box {
     flex: 1;
+    padding: 30px 100px 30px 100px;
+    background-color: #E5E7EB;
+
 }
 
 #quote-para {
-
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
 }
 
 /* --- */
@@ -124,7 +154,7 @@ p, a {
 }
 
 #cta-button {
-
+    border: 2px solid white;
 }
 
 /* --- */
