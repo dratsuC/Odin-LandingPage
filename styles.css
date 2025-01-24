@@ -56,7 +56,7 @@ p, a {
 }
 
 .header-left {
-    flex: 0 0 auto;
+    flex: 1;
     margin: 0 100px;
 
     /* padding-left: 7rem; */
@@ -68,12 +68,12 @@ p, a {
 }
 
 .header-right {
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 
     display: flex;
 
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 
     gap: 10px;
 
@@ -103,28 +103,34 @@ p, a {
 }
 
 #intro-left {
-    flex: 0 1 250px;
+    flex: 0 0 250px;
     height: 200px;
-    margin: 50px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #intro-right {
-    flex: 0 1 auto;
+    flex: 0 1 250px;
     margin: auto;
 
     background-color: grey;
 
-    align-content: center;
+    display: flex;
+    align-self: center;
+
 }
 
 #intro-button {
-
+    width: 65px;
 }
 
 /* --- */
 
 .image-box {
-    padding: 100px 30px 150px 30px;
+    padding: 100px 30px 100px 30px;
     flex: 0 0 auto;
 
     display: flex;
