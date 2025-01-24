@@ -199,6 +199,8 @@ p, a {
 
     display: flex;
 
+    align-self: center;
+
     margin: 100px 200px;
     padding: 50px 70px;
     background-color: #3882F6;
